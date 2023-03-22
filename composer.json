@@ -1,0 +1,26 @@
+{
+    "name": "ahmed/phpunit-test",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Ahmed Hamada",
+            "email": "ahmedhamada015@gmail.com"
+        }
+    ],
+    "require": {}
+}
